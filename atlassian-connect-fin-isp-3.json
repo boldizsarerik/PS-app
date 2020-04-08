@@ -1,0 +1,29 @@
+{
+    "name": "Project Scheduler",
+    "description": "Atlassian Connect app",
+    "key": "com.example.myapp",
+    "baseUrl": "https://d1hkn8bftzqabb.cloudfront.net",
+    "vendor": {
+        "name": "Information Systems Course",
+        "url": "http://example.com"   
+    },
+    "scopes":[
+        "read", "write"
+    ],
+    "authentication": {
+        "type": "none"  
+    },
+    "apiVersion": 1,
+    "modules": {
+        "generalPages": [
+            {
+                "url": "/user-info-isp-3.html", 
+                "key": "user-info-isp-3",
+                "location": "system.top.navigation.bar",
+                "name": {
+                    "value": "Project Scheduler"
+                }
+            }
+        ]
+    }
+}
